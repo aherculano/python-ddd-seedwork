@@ -1,6 +1,6 @@
-from flask import make_response, Flask
+from flask import Flask, make_response
 
-from ddd_seedwork import ApiResponse
+from ..flask_utils.ApiResponse import ApiResponse
 from ddd_seedwork.domain import DomainError
 from ddd_seedwork.persistence import PersistenceError, NotFoundError
 
